@@ -1,0 +1,148 @@
+/* this is the css format for body of my page */
+body {
+    background-color: white;
+    font-family: 'Pixelify Sans', serif;
+    color: black;
+    margin: 30px;
+}
+
+/* this is the css format for nav sections */
+nav {
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+    padding: 2px;
+}
+
+/* this is the css format for the footer section */
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 2px;
+}
+
+/* this is the css format for sections */
+section {
+    border: 5px solid black;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+section.Nameplate {
+    background-color: red;
+    padding: 15px;
+    text-align: center;
+    padding-top: 300px;
+}
+
+section.Main {
+    background-color: yellow;
+    padding: 30px;
+}
+
+/* this is the css format for h1 */
+h1 {
+    font-family: 'Exo 2', serif;
+    font-size: 25pt;
+}
+
+/* this is the css format for anchor */
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    text-transform: uppercase;
+}
+
+a:active {
+    color: orange;
+}
+
+/* this is the css format for images on my page */
+img {
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.Headshot {
+    display: inline;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 250px;
+    top: 150px;
+}
+
+.Destination {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* this is the css format for my div sections */
+div.lang {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    background-color: green;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+div.lang:hover {
+    background-color: red;
+}
+
+div.exp {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    background-color: blue;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+div.exp:hover {
+    background-color: orange;
+}
+
+div.skill {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    background-color: purple;
+}
+
+div.skill:hover {
+    background-color: yellowgreen;
+}
+
+/* this is the css format for tagline header on my page */
+.Tagline {
+    font-style: italic;
+}
+
+/* this is the css format for hr tag */
+hr {
+    background-color: black;
+    border-color: black;
+    border-style: ridge;
+}
